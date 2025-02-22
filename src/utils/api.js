@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://scic-task-server.onrender.com";
+
+// https://scic-task-server.onrender.com
 
 export const getTasks = async (email) => {
     const response = await axios.get(`${API_URL}/tasks`, { params: { email } });

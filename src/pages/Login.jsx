@@ -20,7 +20,7 @@ const Login = () => {
                 const uid = result.user?.uid;
                 const newUser = { name, email, photo, createdAt, uid };
 
-                axios.put('http://localhost:5000/users', newUser)
+                axios.put('https://scic-task-server.onrender.com/users', newUser)
                     .then(data => {
                         if (data.data.matchedCount > 0 || data.data.modifiedCount > 0 || data.data.upsertedCount > 0) {
                             navigate('/home');

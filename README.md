@@ -3,7 +3,7 @@
 Welcome to **TaskMan**, an intuitive task management web application designed to help users efficiently organize, prioritize, and track tasks. This frontend is built using **React**, **Tailwind CSS**, and **Firebase Authentication** for user login. The backend is hosted on **Vercel**, while the frontend is deployed on **Firebase Hosting**.
 
 ## 🚀 Live Demo
-🔗 [Frontend Live Link](https://task-nest-1bc84.web.app/)
+🔗 [Frontend Live Link](https://task-project-990a6.web.app)
 
 ## 🚀 Features
 - **Google Authentication** (Firebase)
